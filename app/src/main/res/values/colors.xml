@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CDDC39</color>
+    <color name="colorPrimaryDark">#C0CA33</color>
+    <color name="colorAccent">#FFAB91</color>
+
+    <!--colors for categories-->
+    <color name="categoryWisdom">#0092ed</color>
+    <color name="categoryUniverse">#737b8e</color>
+    <color name="categoryFun">#d31051</color>
+    <color name="categoryLife">#e28800</color>
+    <color name="categoryHappyness">#00c65c</color>
+</resources>

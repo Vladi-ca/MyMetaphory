@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">MyMetaphory</string>
+
+    <string name="menu_search">Search</string>
+    <string name="menu_categories">Categories</string>
+    <string name="et_search_box">Enter a query ("dog") &amp; click Search</string>
+    <string name="tv_json_results">Make a search!</string>
+    <string name="shows_url">Your URL will show up here!</string>
+
+    <string name="error_message_results">Unable to get your results, sorry!</string>
+    <string name="tv_browse_categories">Browse categories:</string>
+
+</resources>

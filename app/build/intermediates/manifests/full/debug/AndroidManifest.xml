@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vladka.mymetaphory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <!--
+    Each app can be divided into multiple threads of execution
+    that can all run concurrently or in different or same CPU and on same it
+     can run in different time which appear threads are running concurrently.
+     We need to run network on secondary execution thread
+    -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+    when each APK (Android Package Kit) is installed,
+    its given its own unique Linux user ID
+    -->
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:fontFamily="@font/nunito_light"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.vladka.mymetaphory.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.vladka.mymetaphory.SearchActivity" />
+        <activity android:name="com.example.vladka.mymetaphory.UniverseActivity" />
+        <activity android:name="com.example.vladka.mymetaphory.DetailCategoryActivity" />
+    </application>
+
+</manifest>
